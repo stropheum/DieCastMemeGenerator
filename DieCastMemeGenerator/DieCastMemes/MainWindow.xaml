@@ -1,0 +1,62 @@
+﻿<Window x:Class="DieCastMemes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DieCastMemes"
+        mc:Ignorable="d"
+        Title="Stropheum's DieCastMeme Selector" 
+        Height="450" Width="800" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\\Users\\strop\\Desktop\\neuro.jpg" Stretch="UniformToFill"/>
+    </Window.Background>
+    <Grid Name="Grid" 
+                VerticalAlignment="Stretch" 
+                HorizontalAlignment="Stretch">
+        <StackPanel Name="HorizontalPanel"
+                Orientation="Horizontal"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Stretch">
+                <ComboBox Name="MatchupBox" 
+                        HorizontalAlignment="Left" 
+                        Height="50" Width="360" 
+                        Margin="20"
+                        SelectedIndex="0"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        FontSize="24"
+                        SelectionChanged="MatchupBox_SelectionChanged">
+                <ComboBoxItem Visibility="Collapsed">
+                    Choose a Matchup
+                </ComboBoxItem>
+            </ComboBox>
+            <Button Name="ChooseButton" 
+                    IsEnabled="False"
+                    Content="Generate Memes" 
+                    HorizontalAlignment="Right"
+                    Height="50" Width="360"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    FontSize="24"
+                    Click="Button_Click"/>
+        </StackPanel>
+        <Label Name="StrategyLabel"
+               VerticalAlignment="Bottom"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               Height="60"
+               Margin="20"
+               Background="#1E1E1E"
+               Opacity="0.75"
+               Foreground="AntiqueWhite"
+               FontStretch="UltraExpanded">
+            <Viewbox
+                Margin="4"
+                VerticalAlignment="Stretch"
+                Height="Auto">
+                <TextBlock Name="StrategyText" Text="Select a Matchup" />
+            </Viewbox>
+        </Label>
+    </Grid>
+</Window>

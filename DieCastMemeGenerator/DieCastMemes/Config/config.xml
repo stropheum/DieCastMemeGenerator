@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 
+  This is a pretty simple document layout for customizing strategy selection
+  Notes:
+  - All tags are case sensitive, so make sure that you follow the convention laid out here
+  - Matchup and Strategy will always be upper case
+  - name attributes will always be lower case
+  - The contents of the quotation marks are arbitrary, that's just what you're going to 
+    see when you're running the application
+  - You can feel free to add additional Matchups for offracing if you want, and  the number
+    of strategies is arbitrary as well, however many you fill in is however many will be rolled for
+  - Matchups will show up as their own buttons
+  - When you press a matchup button, one of the child strategies will be chosen at random
+-->
+
+<root>
+  <Matchup name="ZvP">
+    <Strategy name="Poop on the floor when you see carriers" />
+    <Strategy name="Hydra ling bane" />
+    <Strategy name="Hydra queen" />
+    <Strategy name="Tons of swarm hosts" />
+    <Strategy name="Queens on a plane" />
+    <Strategy name="Ultralisk rush" />
+    <Strategy name="Nydus swarm hosts" />
+    <Strategy name="Ling bane infestor" />
+    <Strategy name="Twelve vipers, twelve infestors" />
+    <Strategy name="3 hatch before pool" />
+    <Strategy name="Proxy hatch" />
+    <Strategy name="12 pool" />
+  </Matchup>
+  <Matchup name="ZvT">
+    <Strategy name="Upgraded ling drops for days" />
+    <Strategy name="8 muta rush into hydra ling bane" />
+    <Strategy name="Ling bane infestor" />
+    <Strategy name="Hydra ling bane" />
+    <Strategy name="Lurker drops" />
+    <Strategy name="Ultra ling bane corruptor" />
+    <Strategy name="One base lair" />
+    <Strategy name="Pre burrow banelings at future expansions" />
+    <Strategy name="Heavy contaminate with multi prong attacks" />
+    <Strategy name="Scream at the monitor until they leave out of pure intimidation" />
+    <Strategy name="Faceroll the keyboard" />
+    <Strategy name="Do a baneling bust" />
+  </Matchup>
+  <Matchup name="ZvZ">
+    <Strategy name="Do a proxy spine crawler rush" />
+    <Strategy name="Incorporate swarm host drops / nydus" />
+    <Strategy name="Make a butt ton of ravagers" />
+    <Strategy name="Two base mutalisk" />
+    <Strategy name="Hydra ling viper" />
+    <Strategy name="Queen Infestor Ultralisk" />
+    <Strategy name="Scout on 12 and block the enemy expansion" />
+    <Strategy name="12 pool expand" />
+    <Strategy name="1 base lair" />
+    <Strategy name="Ultralisk as fast as reasonably possible" />
+    <Strategy name="Burrow roaches" />
+    <Strategy name="Mass queen" />
+  </Matchup>
+</root>
