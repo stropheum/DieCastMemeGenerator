@@ -9,7 +9,7 @@
         Height="450" Width="800" ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen">
     <Window.Background>
-        <ImageBrush ImageSource="C:\\Users\\strop\\Desktop\\neuro.jpg" Stretch="UniformToFill"/>
+        <ImageBrush ImageSource="pack://application:,,,/DieCastMemes;component/Resources/neuro.jpg" Stretch="UniformToFill"/>
     </Window.Background>
     <Grid Name="Grid" 
                 VerticalAlignment="Stretch" 
